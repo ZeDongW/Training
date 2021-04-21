@@ -1,8 +1,7 @@
-package cn.zedongw.a20210420;
+package cn.zedongw.a20210421;
 
+import cn.zedongw.a20210420.ListNode;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ReverseTest {
 
@@ -22,15 +21,14 @@ public class ReverseTest {
     }
 
     @Test
-    public void reverseN() {
+    public void reverseBetween() {
         node1.toString(node1);
-        node1.toString(re.reverseN(node1, 2));
+        node1.toString(re.reverseBetween(node2, node6));
     }
 
     @Test
-    public void reverseBetween() {
+    public void reverseGroup() {
         node1.toString(node1);
-        node1.toString(re.reverseBetween(node1, 3, 4));
+        node1.toString(re.reverseGroup(node1, 2));
     }
-
 }

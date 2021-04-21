@@ -15,6 +15,15 @@ import java.net.BindException;
  **/
 public class Reverse {
 
+    /**
+     * Description: 反转整个链表
+     * @methodName: reverse
+     * @param head 1
+     * @throws
+     * @return: cn.zedongw.a20210420.ListNode
+     * @author: ZeDongW
+     * @date: 2021/4/21 0021 20:42
+     */
     ListNode reverse(ListNode head) {
         if (head.next == null) {
             return head;
@@ -27,6 +36,16 @@ public class Reverse {
 
     ListNode succcessor = null;
 
+    /**
+     * Description: 反转前n个链表
+     * @methodName: reverseN
+     * @param head 1
+     * @param index 2
+     * @throws
+     * @return: cn.zedongw.a20210420.ListNode
+     * @author: ZeDongW
+     * @date: 2021/4/21 0021 20:42
+     */
     ListNode reverseN(ListNode head, int index){
         if (index == 1){
             succcessor = head.next;
@@ -42,6 +61,17 @@ public class Reverse {
         return last;
     }
 
+    /**
+     * Description: 反转m到n之间的链表
+     * @methodName: reverseBetween
+     * @param head 1
+     * @param m 2
+     * @param n 3
+     * @throws
+     * @return: cn.zedongw.a20210420.ListNode
+     * @author: ZeDongW
+     * @date: 2021/4/21 0021 20:43
+     */
     ListNode reverseBetween(ListNode head, int m, int n){
         if (m == 1){
             return reverseN(head, n);
