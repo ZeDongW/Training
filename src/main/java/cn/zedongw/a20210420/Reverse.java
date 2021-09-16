@@ -1,8 +1,6 @@
 package cn.zedongw.a20210420;
 
-import cn.zedongw.a20210420.ListNode;
-
-import java.net.BindException;
+import cn.zedongw.struct.ListNode;
 
 /**
  * @ClassName: Reverse
@@ -19,12 +17,11 @@ public class Reverse {
      * Description: 反转整个链表
      * @methodName: reverse
      * @param head 1
-     * @throws
-     * @return: cn.zedongw.a20210420.ListNode
+     * @return: cn.zedongw.struct.ListNode
      * @author: ZeDongW
      * @date: 2021/4/21 0021 20:42
      */
-    ListNode reverse(ListNode head) {
+    public ListNode reverse(ListNode head) {
         if (head.next == null) {
             return head;
         }
@@ -41,12 +38,11 @@ public class Reverse {
      * @methodName: reverseN
      * @param head 1
      * @param index 2
-     * @throws
-     * @return: cn.zedongw.a20210420.ListNode
+     * @return: cn.zedongw.struct.ListNode
      * @author: ZeDongW
      * @date: 2021/4/21 0021 20:42
      */
-    ListNode reverseN(ListNode head, int index){
+    public ListNode reverseN(ListNode head, int index){
         if (index == 1){
             succcessor = head.next;
             return head;
@@ -67,12 +63,11 @@ public class Reverse {
      * @param head 1
      * @param m 2
      * @param n 3
-     * @throws
-     * @return: cn.zedongw.a20210420.ListNode
+     * @return: cn.zedongw.struct.ListNode
      * @author: ZeDongW
      * @date: 2021/4/21 0021 20:43
      */
-    ListNode reverseBetween(ListNode head, int m, int n){
+    public ListNode reverseBetween(ListNode head, int m, int n){
         if (m == 1){
             return reverseN(head, n);
         }

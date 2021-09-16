@@ -1,4 +1,4 @@
-package cn.zedongw.a20210915;
+package cn.zedongw.struct;
 
 /**
  * @ClassName BinaryTreeNode

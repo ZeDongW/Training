@@ -1,5 +1,7 @@
 package cn.zedongw.a20210912;
 
+import cn.zedongw.struct.BinaryTreeNode;
+
 /**
  * @ClassName InvertTree
  * @Description: 镜像翻转二叉树
@@ -32,8 +34,7 @@ public class InvertTree {
      * Description: 镜像翻转二叉树
      * @methodName: invertTree
      * @param root 1
-     * @throws
-     * @return: cn.zedongw.a20210912.BinaryTreeNode
+     * @return: cn.zedongw.struct.ListNode.BinaryTreeNode
      * @author: ZeDongW
      * @date: 2021/9/12 22:04
      */

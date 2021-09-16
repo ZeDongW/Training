@@ -1,6 +1,6 @@
 package cn.zedongw.a20210914;
 
-import cn.zedongw.a20210912.BinaryTreeNode;
+import cn.zedongw.struct.TreeNode;
 
 /**
  * @ClassName ConnectTree

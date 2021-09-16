@@ -1,8 +1,7 @@
 package cn.zedongw.a20210420;
 
+import cn.zedongw.struct.ListNode;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ReverseTest {
 

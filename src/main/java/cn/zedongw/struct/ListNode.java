@@ -1,4 +1,4 @@
-package cn.zedongw.a20210420;
+package cn.zedongw.struct;
 
 /**
  * @ClassName: ListNode
@@ -33,6 +33,6 @@ public class ListNode {
             node = node.next;
         }
         sb.append(node.val);
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }

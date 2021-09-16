@@ -1,9 +1,7 @@
 package cn.zedongw.a20210421;
 
-import cn.zedongw.a20210420.ListNode;
+import cn.zedongw.struct.ListNode;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class TraverseTest {
 

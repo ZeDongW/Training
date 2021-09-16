@@ -1,5 +1,7 @@
 package cn.zedongw.a20210915;
 
+import cn.zedongw.struct.BinaryTreeNode;
+
 /**
  * @ClassName Flatten
  * @Description: 把一棵二叉树拉平成一条链表
